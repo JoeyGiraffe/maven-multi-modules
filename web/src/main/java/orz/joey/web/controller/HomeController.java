@@ -1,10 +1,11 @@
-package orz.joey.web;
+package orz.joey.web.controller;
 
 import orz.joey.service.HomeService;
+import orz.joey.service.dto.GirlDto;
 
 public class HomeController {
 
-    public String index() {
+    public GirlDto index() {
         return HomeService.showLove("Jelly");
     }
 }

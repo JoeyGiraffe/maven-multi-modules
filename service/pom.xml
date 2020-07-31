@@ -18,7 +18,14 @@
             <version>1.0-SNAPSHOT</version>
             <!--该依赖只作用于当前模块-->
             <optional>true</optional>
+            <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>ma.glasnost.orika</groupId>
+            <artifactId>orika-core</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
